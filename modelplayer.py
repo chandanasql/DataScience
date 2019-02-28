@@ -241,7 +241,7 @@ df = pd.concat(frame, axis = 1, ignore_index = True)
 
 
 
-def predictMatch(squada, squadb):
+def predictMatch(squada, squadb,Toss,Venue):
     # Split the targets into training/testing sets
     df_x_train = df[:-20]
     df_x_test = df[-20:]
